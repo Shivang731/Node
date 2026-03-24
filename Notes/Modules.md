@@ -3,7 +3,10 @@
  **when we break our whole code into smaller codes or functions we call it modular programming** 
 
 **like we use  ./ to use functions and stuff as modules
-**
+
+
+**** require is the java equivalent of import for node js**
+
 
 console.log("hello");
 const math = require("./math");
@@ -56,3 +59,5 @@ you can use the module.exports only once not multiple time the mentioned in 1st*
 
 **.exports **
 you can use  multiple time
+
+onto [[File Handling]]

@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Node",
+      "query": "Basic",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:",
+      "query": "path:Notes  ",
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -25,13 +25,13 @@
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 2.94036821443076,
-  "lineSizeMultiplier": 4.9144307567348,
+  "nodeSizeMultiplier": 5,
+  "lineSizeMultiplier": 5,
   "collapse-forces": false,
-  "centerStrength": 0.501692161906051,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.04041723269496163,
-  "close": true
+  "centerStrength": 0.520833333333333,
+  "repelStrength": 20,
+  "linkStrength": 0,
+  "linkDistance": 419,
+  "scale": 0.3027980472870229,
+  "close": false
 }

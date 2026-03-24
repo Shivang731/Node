@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Modules.md",
+                "file": "Notes/File Handling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modules"
+              "title": "File Handling"
+            }
+          },
+          {
+            "id": "3b74f90cf2570edc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -196,10 +206,15 @@
   },
   "active": "c921cd6fb089b043",
   "lastOpenFiles": [
+    "contacts.txt",
     "Notes/Modules.md",
+    "2026-03-24.md",
+    "Notes/File Handling.md",
+    "Notes/Basic.md",
+    "test.txt",
+    "file.js",
     "hello.js",
     "math.js",
-    "Notes/Basic.md",
     "Untitled.md",
     "Notes.md",
     "Untitled",
