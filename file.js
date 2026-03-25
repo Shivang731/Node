@@ -19,4 +19,11 @@ const fs = require("fs");
 
 
 //Async
-const 
+fs.readFile("./contacts.txt","utf-8",(err,result) => {
+    if(err){
+        console.log("error",err);
+    }else {
+        console.log(result);
+    }
+})
+

@@ -1,3 +1,12 @@
+*
+******you can do anything you want with files with Node js mkdir  ,copy,remove anything but you cant do these stuff with ******
+*****1-Read
+    2-write
+     3-append******
+
+
+
+
 fs module file system 
 
 **its a built in function**
@@ -36,14 +45,17 @@ has a error callback to **(err)=>{} **** unlike Sync it mandatory for it be here
 
 
 **Sync**
-const result = fs.readFileSync("./contacts.txt","utf-8");
 
-// console.log(result);
+const result = fs.readFileSync("./contacts.txt","utf-8");
+console.log(result);
 
 it just basic read file **contacts.txt**  and it is in the **current directory (./)****
 
 
 ****async****
+
+its mandatory to call a **callback function**** after calling something async or else **it wont work****
+
 
 fs.readFile("./contacts.txt","utf-8",(err,result) => {
 if(err){
@@ -53,6 +65,13 @@ console.log(result);
 }
 });
 
+**3-append**
 
+
+
+
+
+
+onto [[Architecture(How Node JS works )]]
 
 ****
