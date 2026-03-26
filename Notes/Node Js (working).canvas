@@ -1,17 +1,19 @@
 {
 	"nodes":[
-		{"id":"a250cd36251468cf","x":-125,"y":-320,"width":250,"height":350,"type":"text","text":"Event Queue\n\n\n      Event Loop\n      1-(sync)Blocking code\n      2-(async)Non-blocking   code "},
-		{"id":"453705b59ba81b94","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":""},
-		{"id":"3059497dffb76f2b","x":-253,"y":122,"width":250,"height":178,"type":"text","text":"Non-blocking code \n\nExecutes directly no issues "},
-		{"id":"35ffaa88dbdabf83","x":20,"y":140,"width":250,"height":280,"type":"text","text":"Blocking code \n\nIt goes to a thread pool\n\nThreads are alloted and imagine you have a 4 thredded system so the 5 thread or request would only work when the first one gets freee"},
-		{"id":"61d9c09f9c3f5eba","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":""},
-		{"id":"f8ea87c35071893e","x":-483,"y":-373,"width":250,"height":60,"type":"text","text":"User Makes some request(1st step)"},
-		{"id":"79befdee185e9010","x":231,"y":-163,"width":250,"height":60,"type":"text","text":"thread pool"}
+		{"id":"a250cd36251468cf","type":"text","text":"Event Queue\n\n\n      Event Loop\n      1-(sync)Blocking code\n      2-(async)Non-blocking   code ","x":-125,"y":-320,"width":250,"height":350},
+		{"id":"453705b59ba81b94","type":"text","text":"","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"3059497dffb76f2b","type":"text","text":"Non-blocking code \n\nExecutes directly no issues ","x":-253,"y":122,"width":250,"height":178},
+		{"id":"35ffaa88dbdabf83","type":"text","text":"Blocking code \n\nIt goes to a thread pool\n\nThreads are alloted and imagine you have a 4 thredded system so the 5 thread or request would only work when the first one gets freee","x":20,"y":140,"width":250,"height":280},
+		{"id":"61d9c09f9c3f5eba","type":"text","text":"","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"f8ea87c35071893e","type":"text","text":"User Makes some request(1st step)","x":-483,"y":-373,"width":250,"height":60},
+		{"id":"79befdee185e9010","type":"text","text":"thread pool","x":231,"y":-163,"width":250,"height":60},
+		{"id":"625a34fb044c6061","x":320,"y":-4,"width":260,"height":204,"type":"text","text":"      **Problem** \nArises when we talk bout scaling systems "}
 	],
 	"edges":[
 		{"id":"40d46c96f6dd2d2f","fromNode":"453705b59ba81b94","fromSide":"bottom","toNode":"3059497dffb76f2b","toSide":"top"},
 		{"id":"8c46d9fb73c4b34c","fromNode":"453705b59ba81b94","fromSide":"bottom","toNode":"35ffaa88dbdabf83","toSide":"top"},
 		{"id":"8527c43de1a58612","fromNode":"a250cd36251468cf","fromSide":"top","toNode":"f8ea87c35071893e","toSide":"bottom"},
-		{"id":"03a2099f26c823c0","fromNode":"35ffaa88dbdabf83","fromSide":"right","toNode":"79befdee185e9010","toSide":"left"}
+		{"id":"03a2099f26c823c0","fromNode":"35ffaa88dbdabf83","fromSide":"right","toNode":"79befdee185e9010","toSide":"left"},
+		{"id":"5ea8f293c8f45458","fromNode":"79befdee185e9010","fromSide":"bottom","toNode":"625a34fb044c6061","toSide":"top"}
 	]
 }
