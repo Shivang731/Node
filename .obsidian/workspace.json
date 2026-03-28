@@ -32,23 +32,6 @@
             }
           },
           {
-            "id": "da7511cb8d490fdf",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Notes/Node Js (working).canvas",
-                "viewState": {
-                  "x": 133.67000000000002,
-                  "y": 103.16999999999992,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Node Js (working)"
-            }
-          },
-          {
             "id": "3b74f90cf2570edc",
             "type": "leaf",
             "state": {
@@ -58,8 +41,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,12 +204,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "da7511cb8d490fdf",
+  "active": "c921cd6fb089b043",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "Notes/Node Js (working).canvas",
-    "Notes/Architecture(How Node JS works ).md",
     "Untitled",
+    "Untitled.canvas",
+    "Notes/Architecture(How Node JS works ).md",
     "Notes/File Handling.md",
     "Notes/Modules.md",
     "contacts.txt",
